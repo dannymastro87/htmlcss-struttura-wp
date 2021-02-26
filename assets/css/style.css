@@ -4,14 +4,17 @@
   margin: 0;
 }
 
-body {
-  padding: 20px 50px;
+.container {
+  width: 80%;
+  margin: 0 auto;
 }
 
 nav {
   background-color: #e579e6;
   height: 100px;
   width: 100%;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .slider {
@@ -25,27 +28,29 @@ main {
   background-color: #0086ff;
   height: 100%;
   width: 100%;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-.row {
+.title {
  background-color: #abcfe7;
  height: 50px;
  width: 100%;
+ margin-bottom: 20px;
 }
 
-.col-1, .col-2, .col-3 {
+.col-left, .col-right {
   background-color: #abcfe7;
   width: 20%;
   height: 600px;
-  margin: 20px;
   float: left;
 }
 
-.col-2 {
+.col-center {
   background-color: #abcfe7;
-  width: 52%;
+  width: 56%;
   height: 600px;
-  margin: 20px;
+  margin: 0 2%;
   float: left;
 }
 
